@@ -3,7 +3,7 @@ package ba.unsa.etf.rpr.t1;
 public class Main {
 
     public static void main(String[] args) {
-        Sat s(15,30,45);
+        Sat s = new Sat(15,30,45);
         s.Ispisi();
         s.Sljedeci();
         s.Ispisi();
